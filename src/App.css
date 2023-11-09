@@ -1,0 +1,65 @@
+.editor-container {
+  margin: 1.25rem auto;
+  max-width: 600px;
+  width: 600px;
+}
+
+#editor {
+  width: 99%;
+  min-height: 200px;
+  padding-left: 6px;
+  padding-top: 5px;
+  font-size: 0.87rem;
+  background-color: #c0d8d8;
+  border: 1px solid #1d2f2f;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  border-top: none;
+  outline: none;
+  resize: vertical;
+}
+
+/* preview container*/
+#preview {
+  width: 99%;
+  padding: 0 1rem;
+  min-height: 200px;
+  color: #212529;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #c0d8d8;
+}
+#preview img {
+  max-width: 90%;
+}
+
+.preview-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  width: 800px;
+  min-height: 200px;
+  overflow-wrap: break-word;
+}
+
+/* same styles */
+
+.editor-toolbar,
+.preview-toolbar {
+  display: flex;
+  align-items: center;
+  width: 99%;
+  height: 30px;
+  padding: 0.3rem;
+  background-color: #4aa3a3;
+  border: 1px solid black;
+  box-shadow: 1px 1px 10px 2px #3a5f5f;
+  font-size: 1rem;
+  color: black;
+  font-weight: 900;
+}
+
+i {
+  color: black;
+  font-size: 25px;
+  margin-left: auto;
+}
