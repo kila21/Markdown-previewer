@@ -46,6 +46,7 @@
   /* min-height: 200px; */
   overflow-wrap: break-word;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /* same styles */
@@ -69,4 +70,10 @@ i {
   color: black;
   font-size: 25px;
   margin-left: auto;
+}
+
+/* resize styles */
+
+.resize {
+  min-height: 90vh !important;
 }
