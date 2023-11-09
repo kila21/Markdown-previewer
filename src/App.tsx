@@ -3,7 +3,9 @@ import { marked } from "marked";
 import "./App.css";
 
 function App() {
-  const [text, setText] = useState("");
+  const [text, setText] = useState(
+    "You Can type anything here, and use any tag from html!."
+  );
 
   return (
     <>
